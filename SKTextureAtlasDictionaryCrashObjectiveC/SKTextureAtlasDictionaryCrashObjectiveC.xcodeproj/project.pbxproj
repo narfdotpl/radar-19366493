@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB59BEAB1A56CBD30068ED0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59BEAA1A56CBD30068ED0B /* main.m */; };
+		CB59BEAE1A56CBD30068ED0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59BEAD1A56CBD30068ED0B /* AppDelegate.m */; };
+		CB59BEB11A56CBD30068ED0B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59BEB01A56CBD30068ED0B /* GameScene.m */; };
+		CB59BEB31A56CBD30068ED0B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB59BEB21A56CBD30068ED0B /* GameScene.sks */; };
+		CB59BEB61A56CBD30068ED0B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59BEB51A56CBD30068ED0B /* GameViewController.m */; };
+		CB59BEB91A56CBD30068ED0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB59BEB71A56CBD30068ED0B /* Main.storyboard */; };
+		CB59BEBB1A56CBD30068ED0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB59BEBA1A56CBD30068ED0B /* Images.xcassets */; };
+		CB59BEBE1A56CBD30068ED0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB59BEBC1A56CBD30068ED0B /* LaunchScreen.xib */; };
+		CB59BECA1A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59BEC91A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB59BEC41A56CBD30068ED0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB59BE9D1A56CBD30068ED0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB59BEA41A56CBD30068ED0B;
+			remoteInfo = SKTextureAtlasDictionaryCrashObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB59BEA51A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTextureAtlasDictionaryCrashObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB59BEA91A56CBD30068ED0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB59BEAA1A56CBD30068ED0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB59BEAC1A56CBD30068ED0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB59BEAD1A56CBD30068ED0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB59BEAF1A56CBD30068ED0B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CB59BEB01A56CBD30068ED0B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CB59BEB21A56CBD30068ED0B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CB59BEB41A56CBD30068ED0B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CB59BEB51A56CBD30068ED0B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CB59BEB81A56CBD30068ED0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB59BEBA1A56CBD30068ED0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB59BEBD1A56CBD30068ED0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB59BEC31A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTextureAtlasDictionaryCrashObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB59BEC81A56CBD30068ED0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB59BEC91A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTextureAtlasDictionaryCrashObjectiveCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB59BEA21A56CBD30068ED0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB59BEC01A56CBD30068ED0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB59BE9C1A56CBD30068ED0B = {
+			isa = PBXGroup;
+			children = (
+				CB59BEA71A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC */,
+				CB59BEC61A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests */,
+				CB59BEA61A56CBD30068ED0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB59BEA61A56CBD30068ED0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB59BEA51A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC.app */,
+				CB59BEC31A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB59BEA71A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				CB59BEAC1A56CBD30068ED0B /* AppDelegate.h */,
+				CB59BEAD1A56CBD30068ED0B /* AppDelegate.m */,
+				CB59BEAF1A56CBD30068ED0B /* GameScene.h */,
+				CB59BEB01A56CBD30068ED0B /* GameScene.m */,
+				CB59BEB21A56CBD30068ED0B /* GameScene.sks */,
+				CB59BEB41A56CBD30068ED0B /* GameViewController.h */,
+				CB59BEB51A56CBD30068ED0B /* GameViewController.m */,
+				CB59BEB71A56CBD30068ED0B /* Main.storyboard */,
+				CB59BEBA1A56CBD30068ED0B /* Images.xcassets */,
+				CB59BEBC1A56CBD30068ED0B /* LaunchScreen.xib */,
+				CB59BEA81A56CBD30068ED0B /* Supporting Files */,
+			);
+			path = SKTextureAtlasDictionaryCrashObjectiveC;
+			sourceTree = "<group>";
+		};
+		CB59BEA81A56CBD30068ED0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB59BEA91A56CBD30068ED0B /* Info.plist */,
+				CB59BEAA1A56CBD30068ED0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB59BEC61A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB59BEC91A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.m */,
+				CB59BEC71A56CBD30068ED0B /* Supporting Files */,
+			);
+			path = SKTextureAtlasDictionaryCrashObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		CB59BEC71A56CBD30068ED0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB59BEC81A56CBD30068ED0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB59BEA41A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB59BECD1A56CBD30068ED0B /* Build configuration list for PBXNativeTarget "SKTextureAtlasDictionaryCrashObjectiveC" */;
+			buildPhases = (
+				CB59BEA11A56CBD30068ED0B /* Sources */,
+				CB59BEA21A56CBD30068ED0B /* Frameworks */,
+				CB59BEA31A56CBD30068ED0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTextureAtlasDictionaryCrashObjectiveC;
+			productName = SKTextureAtlasDictionaryCrashObjectiveC;
+			productReference = CB59BEA51A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB59BEC21A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB59BED01A56CBD30068ED0B /* Build configuration list for PBXNativeTarget "SKTextureAtlasDictionaryCrashObjectiveCTests" */;
+			buildPhases = (
+				CB59BEBF1A56CBD30068ED0B /* Sources */,
+				CB59BEC01A56CBD30068ED0B /* Frameworks */,
+				CB59BEC11A56CBD30068ED0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB59BEC51A56CBD30068ED0B /* PBXTargetDependency */,
+			);
+			name = SKTextureAtlasDictionaryCrashObjectiveCTests;
+			productName = SKTextureAtlasDictionaryCrashObjectiveCTests;
+			productReference = CB59BEC31A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB59BE9D1A56CBD30068ED0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Maciej Konieczny";
+				TargetAttributes = {
+					CB59BEA41A56CBD30068ED0B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CB59BEC21A56CBD30068ED0B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CB59BEA41A56CBD30068ED0B;
+					};
+				};
+			};
+			buildConfigurationList = CB59BEA01A56CBD30068ED0B /* Build configuration list for PBXProject "SKTextureAtlasDictionaryCrashObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB59BE9C1A56CBD30068ED0B;
+			productRefGroup = CB59BEA61A56CBD30068ED0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB59BEA41A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC */,
+				CB59BEC21A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB59BEA31A56CBD30068ED0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB59BEBE1A56CBD30068ED0B /* LaunchScreen.xib in Resources */,
+				CB59BEBB1A56CBD30068ED0B /* Images.xcassets in Resources */,
+				CB59BEB31A56CBD30068ED0B /* GameScene.sks in Resources */,
+				CB59BEB91A56CBD30068ED0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB59BEC11A56CBD30068ED0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB59BEA11A56CBD30068ED0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB59BEB61A56CBD30068ED0B /* GameViewController.m in Sources */,
+				CB59BEAE1A56CBD30068ED0B /* AppDelegate.m in Sources */,
+				CB59BEB11A56CBD30068ED0B /* GameScene.m in Sources */,
+				CB59BEAB1A56CBD30068ED0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB59BEBF1A56CBD30068ED0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB59BECA1A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB59BEC51A56CBD30068ED0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB59BEA41A56CBD30068ED0B /* SKTextureAtlasDictionaryCrashObjectiveC */;
+			targetProxy = CB59BEC41A56CBD30068ED0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB59BEB71A56CBD30068ED0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB59BEB81A56CBD30068ED0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB59BEBC1A56CBD30068ED0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB59BEBD1A56CBD30068ED0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB59BECB1A56CBD30068ED0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB59BECC1A56CBD30068ED0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB59BECE1A56CBD30068ED0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKTextureAtlasDictionaryCrashObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB59BECF1A56CBD30068ED0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKTextureAtlasDictionaryCrashObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB59BED11A56CBD30068ED0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKTextureAtlasDictionaryCrashObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTextureAtlasDictionaryCrashObjectiveC.app/SKTextureAtlasDictionaryCrashObjectiveC";
+			};
+			name = Debug;
+		};
+		CB59BED21A56CBD30068ED0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKTextureAtlasDictionaryCrashObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTextureAtlasDictionaryCrashObjectiveC.app/SKTextureAtlasDictionaryCrashObjectiveC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB59BEA01A56CBD30068ED0B /* Build configuration list for PBXProject "SKTextureAtlasDictionaryCrashObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB59BECB1A56CBD30068ED0B /* Debug */,
+				CB59BECC1A56CBD30068ED0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB59BECD1A56CBD30068ED0B /* Build configuration list for PBXNativeTarget "SKTextureAtlasDictionaryCrashObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB59BECE1A56CBD30068ED0B /* Debug */,
+				CB59BECF1A56CBD30068ED0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB59BED01A56CBD30068ED0B /* Build configuration list for PBXNativeTarget "SKTextureAtlasDictionaryCrashObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB59BED11A56CBD30068ED0B /* Debug */,
+				CB59BED21A56CBD30068ED0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB59BE9D1A56CBD30068ED0B /* Project object */;
+}
