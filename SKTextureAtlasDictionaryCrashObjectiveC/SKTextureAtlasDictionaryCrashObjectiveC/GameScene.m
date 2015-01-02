@@ -12,7 +12,15 @@
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
     SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-    
+
+    UIGraphicsBeginImageContextWithOptions((CGSize){ 100, 100 }, false, 0);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    [SKTextureAtlas atlasWithDictionary:@{
+        @"foo": image,
+    }];
+
     myLabel.text = @"Hello, World!";
     myLabel.fontSize = 65;
     myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
