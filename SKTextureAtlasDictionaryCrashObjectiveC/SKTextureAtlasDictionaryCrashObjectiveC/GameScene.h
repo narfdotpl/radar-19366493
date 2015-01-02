@@ -3,7 +3,6 @@
 //  SKTextureAtlasDictionaryCrashObjectiveC
 //
 
-//  Copyright (c) 2015 Maciej Konieczny. All rights reserved.
 //
 
 #import <SpriteKit/SpriteKit.h>
